@@ -1,0 +1,8 @@
+﻿CREATE TABLE [dbo].[GradeSetup]
+(
+	[ID] INT NOT NULL IDENTITY , 
+    [GradeID] INT NOT NULL, 
+    [NextGrade] INT NULL, 
+    [Notes] VARCHAR(50) NULL, 
+    PRIMARY KEY ([GradeID])
+)

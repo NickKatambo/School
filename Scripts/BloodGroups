@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[BloodGroup]
+(
+	[ID] INT NOT NULL IDENTITY, 
+    [GroupName] VARCHAR(5) NOT NULL, 
+    CONSTRAINT [PK_Table] PRIMARY KEY ([GroupName])
+)

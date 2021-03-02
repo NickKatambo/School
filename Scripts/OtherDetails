@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[OtherDetails]
+(
+	[ID] INT NOT NULL  IDENTITY, 
+    [StudentNo] VARCHAR(15) NOT NULL, 
+    [IdentificationRemarks] VARCHAR(MAX) NULL, 
+    [BloodGroup] INT NULL, 
+    [MotherTongue] VARCHAR(50) NULL, 
+    [LanguagePreference] INT NULL, 
+    [Comment] VARCHAR(MAX) NULL, 
+    PRIMARY KEY ([StudentNo])
+)

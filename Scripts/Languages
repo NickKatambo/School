@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Languages]
+(
+	[ID] INT NOT NULL IDENTITY , 
+    [Language] VARCHAR(50) NOT NULL, 
+    CONSTRAINT [PK_Languages] PRIMARY KEY ([Language])  
+)

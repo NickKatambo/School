@@ -1,0 +1,22 @@
+﻿CREATE TABLE [dbo].[Student]
+(
+	[ID] INT NOT NULL  IDENTITY, 
+    [StudentNo] VARCHAR(15) NOT NULL, 
+    [ExaminationNo] INT NULL, 
+    [Firstname] VARCHAR(50) NULL, 
+    [Lastname] VARCHAR(50) NULL, 
+    [Gender] INT NULL, 
+    [DateOfBirth] DATE NULL, 
+    [PlaceOfBirth] VARCHAR(50) NULL, 
+    [Nationality] INT NULL, 
+    [ResidentialAddress] VARCHAR(MAX) NULL, 
+    [GeneralBehaviour] VARCHAR(MAX) NULL, 
+    [AdmissionGrade] INT NULL, 
+    [AdmissionYear] INT NULL, 
+    [CurrentGrade] INT NULL, 
+    [TransStatus] INT NULL, 
+    [TransactionDate] DATETIME NULL, 
+    [LoggedBy] VARCHAR(50) NULL, 
+    [ImagePath] VARCHAR(100) NULL, 
+    PRIMARY KEY ([StudentNo]) 
+)

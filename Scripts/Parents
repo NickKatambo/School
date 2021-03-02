@@ -1,0 +1,19 @@
+﻿CREATE TABLE [dbo].[Parents]
+(
+	[ID] INT NOT NULL PRIMARY KEY, 
+    [StudentNo] VARCHAR(15) NULL, 
+    [NRC] VARCHAR(15) NULL, 
+    [RelationShip] INT NULL, 
+    [Firstname] VARCHAR(25) NULL, 
+    [Lastname] VARCHAR(25) NULL, 
+    [Qualification] VARCHAR(50) NULL, 
+    [Occupation] VARCHAR(50) NULL, 
+    [ResidentialAddress] VARCHAR(50) NULL, 
+    [CellNo] VARCHAR(50) NULL, 
+    [EmailAddress] VARCHAR(50) NULL, 
+    [IsActive] BIT NULL, 
+    [CreatedDate] DATETIME NULL, 
+    [ModifiedDate] DATETIME NULL, 
+    [CreatedBy] VARCHAR(50) NULL, 
+    [ModifiedBy] VARCHAR(50) NULL
+)
